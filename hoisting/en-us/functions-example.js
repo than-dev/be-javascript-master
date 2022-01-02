@@ -1,4 +1,4 @@
-// -------------------------- EXAMPLE 1 --------------------------
+// ------------------------- EXAMPLE 1 -------------------------
 function anotherHoistTest() {
     hoistMe()
     
@@ -10,7 +10,7 @@ function anotherHoistTest() {
 anotherHoistTest() // output: hoisted
 
 
-// -------------------------- EXAMPLE 2 --------------------------
+// ------------------------- EXAMPLE 2 -------------------------
 
 hoistMe() // output: hoisted
 assignedToVar() // output: Is not a function
