@@ -33,7 +33,7 @@ to stay tuned: in this case, reassigned means that variable can or not has a new
 
 <br>
 
-resume: with _const_ and _let_ among us, prefer use they, when you will need to change the value from any variable in execution time, prefer _let_, unlike it, prefer const.
+resume: with _const_ and _let_ among us, prefer use they, when you will need to change the value from any variable in execution time, prefer _let_, unlike it, prefer _const_.
 
 <br>
 <hr>
@@ -82,7 +82,7 @@ console.log(assignedToVar) // output: cannot access before initialization
 const assignedToVar = 'I will give an error cause hoisting not assign the value, just declares it on top'
 ```
 
-executing this piece of code above, we see the specified output, it occurs because hoisting not assing the value, just declares on top! Pay attention with this behavior, it makes your code ready to bugs!
+executing this piece of code above, we see the specified output, it occurs because hoisting not assign the value, just declares on top! Pay attention with this behavior, it makes your code ready to bugs!
 
 <hr>
 <br>
