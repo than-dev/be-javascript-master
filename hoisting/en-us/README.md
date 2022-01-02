@@ -17,11 +17,11 @@ Hoisting is basically a behavior from javascript that we can see in execution ti
 
 <br>
 
-Before see some examples, we need to understand the difference beetwen these three ways to declare a variable.
+Before see some examples, we need to understand the difference beetween these three ways to declare a variable.
 
 <br>
 
-- **var**: On the start of javascript, we had only _var_, currently, we dont have reasons to use it, the hoisting concept is applied just to this type of declaration, and, it can be problematic by some reasons I will explain later. Another point we can say here is, its value can be reassigned.
+- **var**: On the start of javascript, we had only _var_, currently, we don't have reasons to use it, the hoisting concept is applied just to this type of declaration, and, it can be problematic by some reasons I will explain later. Another point we can say here is, its value can be reassigned.
 
 - **let**: unlike _var_, hoisting is not applied to _let_, it's a reason to prefer it, but, like _var_, its value can be reassigned.
 
