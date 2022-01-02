@@ -17,7 +17,7 @@ Hoisting is basically a behavior from javascript that we can see in execution ti
 
 <br>
 
-Before see some examples, we need to understand the difference beetween these three ways to declare a variable.
+Before see some examples, we need to understand the difference between these three ways to declare a variable.
 
 <br>
 
