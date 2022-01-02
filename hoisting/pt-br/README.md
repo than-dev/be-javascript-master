@@ -46,7 +46,7 @@ resumo: com _const_ e _let_ entre nós, prefira utilizá-los, quando precisar al
 **Funções:**
 
 ```
-hoistMe() // output: Estou sendo executada graças ao hoisting
+hoistMe() // saida: Estou sendo executada graças ao hoisting
 
 function hoistMe() {
     console.log('Estou sendo executada graças ao hoisting')
@@ -64,24 +64,38 @@ No exemplo acima, o hoisting funciona corretamente, repare que chamamos a funç�
 Neste exemplo, usamos uma _const_, referindo-a, reparamos que o hoisting não é aplicado!
 
 ```
-console.log(atribuidoAConst) // output: cannot access before initialization
+console.log(atribuidoAConst) // saida: cannot access before initialization
 
 const atribuidoAConst = 'Vou retornar um erro porque o hoisting não se aplica em const'
 ```
 
 OBS: com _let_ o resultado seria o mesmo
 
+<hr>
 <br>
 
 Agora podemos ver um comportamento interessante do hoisting
 
 ```
-console.log(atribuidoAVar) // output: cannot access before initialization
+console.log(atribuidoAVar) // saida: cannot access before initialization
 
 const atribuidoAVar = 'Vou retornar um erro porque o hoisting não atribui o valor, apenas declara no topo'
 ```
 
 executando este trecho do código acima, vemos a saída especificada, isso ocorre porque o hoisting não atribui o valor, apenas o declara no topo do escopo. Preste atenção neste comportamento, ele torna seu código propício a bugs!
+
+<hr>
+<br>
+
+Caso de uso inusitado porém vale a pena entender:
+
+```
+auxiliar = '\'hoisted\'';
+console.log(auxiliar); // saida: 'hoisted'
+var auxiliar;
+```
+
+se atribuirmos o valor previamente e declararmos depois o hoisting é feito com sucesso
 
 <br>
 <hr>
@@ -102,7 +116,7 @@ function outroTesteDeHoisting() {
     }
 }
 
-outroTesteDeHoisting() // output: Estou sendo 'hoisted' dentro de outra função
+outroTesteDeHoisting() // saida: Estou sendo 'hoisted' dentro de outra função
 ```
 
 <br>

@@ -71,6 +71,7 @@ const assignedToConst = 'I will give an error cause hoisting not apply in const'
 
 OBS: with _let_ the result would be the same
 
+<hr>
 <br>
 
 Now we can see a interesthing behavior from hoisting
@@ -82,6 +83,19 @@ const assignedToVar = 'I will give an error cause hoisting not assign the value,
 ```
 
 executing this piece of code above, we see the specified output, it occurs because hoisting not assing the value, just declares on top! Pay attention with this behavior, it makes your code ready to bugs!
+
+<hr>
+<br>
+
+Unusual use case but worth understanding:
+
+```
+auxiliar = '\'hoisted\'';
+console.log(auxiliar); // saida: 'hoisted'
+var auxiliar;
+```
+
+if we assign the value before and declare it later the hoisting is done successfully
 
 <br>
 <hr>
