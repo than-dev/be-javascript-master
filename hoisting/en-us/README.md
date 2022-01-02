@@ -74,7 +74,7 @@ OBS: with _let_ the result would be the same
 <hr>
 <br>
 
-Now we can see a interesthing behavior from hoisting
+Now we can see a interesting behavior from hoisting
 
 ```
 console.log(assignedToVar) // output: cannot access before initialization
