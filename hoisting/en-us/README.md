@@ -90,9 +90,9 @@ executing this piece of code above, we see the specified output, it occurs becau
 Unusual use case but worth understanding:
 
 ```
-auxiliar = '\'hoisted\'';
-console.log(auxiliar); // saida: 'hoisted'
-var auxiliar;
+handle = '\'hoisted\'';
+console.log(handle); // output: 'hoisted'
+var handle;
 ```
 
 if we assign the value before and declare it later the hoisting is done successfully
