@@ -33,7 +33,7 @@ para ficar atento: neste caso, reatribuído significa que a variável pode ou n�
 
 <br>
 
-resume: com _const_ e _let_ entre nós, prefira utilizá-los, quando precisar alterar o valor de alguma variável em tempo de execução, prefira _let_, do contrário, prefira const.
+resumo: com _const_ e _let_ entre nós, prefira utilizá-los, quando precisar alterar o valor de alguma variável em tempo de execução, prefira _let_, do contrário, prefira const.
 
 <br>
 <hr>
