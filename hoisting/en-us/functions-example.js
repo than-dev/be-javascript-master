@@ -3,32 +3,32 @@ function anotherHoistTest() {
     hoistMe()
     
     function hoistMe() {
-        console.log('I\'m being hoisted inside another function');
+        console.log('hoisted');
     }
 }
 
-anotherHoistTest()
+anotherHoistTest() // output: hoisted
 
 
 // -------------------------- EXAMPLE 2 --------------------------
 
-hoistMe() // output: I execute this function by hoisting
+hoistMe() // output: hoisted
 assignedToVar() // output: Is not a function
 assignedToLet() // output: cannot access before initialization
 assignedToConst() // output: cannot access before initialization
 
 function hoistMe() {
-    console.log('I\'m being executed by hoisting');
+    console.log('hoisted');
 }
 
 const assignedToConst = function () {
-    console.log('I will give an error cause hoisting not apply in const');
+    console.log('hoisted');
 }
 
 let assignedToLet = function () {
-    console.log('I will give an error cause hoisting not apply in let');
+    console.log('hoisted');
 }
 
 var assignedToVar = function() {
-    console.log('I will give an error cause hoisting just declared the var on the top of scope, and assign where it was really instanced');
+    console.log('hoisted');
 }

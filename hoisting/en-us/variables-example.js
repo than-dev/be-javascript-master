@@ -1,9 +1,8 @@
 // ---------- Example inside a function
-
 function hoistTest() {
-    console.log(any === undefined); // output: true
+    console.log(handle === undefined); // output: true
     
-    var any = 'ola'
+    var handle = '\'hoisted\''
 }
 
 hoistTest()
@@ -13,6 +12,6 @@ console.log(hoistMe); // undefined, hoisting just declare, the assignment occurs
 console.log(hoistMeConst); // cannot access before initialization
 console.log(hoistMeLet); // cannot access before initialization
 
-var hoistMe = 'any'
-const hoistMeConst = 'any'
-let hoistMeLet = 'any'
+var hoistMe = '\'hoisted\''
+const hoistMeConst = '\'hoisted\''
+let hoistMeLet = '\'hoisted\''

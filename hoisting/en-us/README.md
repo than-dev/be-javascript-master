@@ -21,9 +21,9 @@ Before see some examples, we need to understand the difference beetwen these thr
 
 <br>
 
-- **var**: On the start of javascript, we had only _var_, currently, we dont have reasons to use it, the hoisting concept is applied just to this type of declaration, and, it can be problematic by some reasons I will explain later. Another point we can say here is, its value can be reassigned with no difficultie.
+- **var**: On the start of javascript, we had only _var_, currently, we dont have reasons to use it, the hoisting concept is applied just to this type of declaration, and, it can be problematic by some reasons I will explain later. Another point we can say here is, its value can be reassigned.
 
-- **let**: unlike _var_, hoisting is not applied to _let_, it's a reason to prefer it, but, like _var_, its value can be reassigned with no difficultie.
+- **let**: unlike _var_, hoisting is not applied to _let_, it's a reason to prefer it, but, like _var_, its value can be reassigned.
 
 - **const**: like _let_, hoisting is not applied to it, another point about _const_ is that it can't has its value reassigned.
 
@@ -33,7 +33,7 @@ to stay tuned: in this case, reassigned means that variable can or not has a new
 
 <br>
 
-resume: with _const_ and _let_ among us, prefer use they, when you will need to change the value from any variable in execution time, prefer let, unlike it, prefer const.
+resume: with _const_ and _let_ among us, prefer use they, when you will need to change the value from any variable in execution time, prefer _let_, unlike it, prefer const.
 
 <br>
 <hr>
@@ -61,7 +61,7 @@ In the example above, the hoisting works effective, repair we call the function 
 
 **Variables:**
 
-In this example, we use a _const_, executing it, we repair that hoisting is not applyied!
+In this example, we use a _const_, referring to it, we repair that hoisting is not applyied!
 
 ```
 console.log(assignedToConst) // output: cannot access before initialization
@@ -78,10 +78,10 @@ Now we can see a interesthing behavior from hoisting
 ```
 console.log(assignedToVar) // output: cannot access before initialization
 
-const assignedToVar = 'I will give an error cause hoisting not assing the value, just declare on top
+const assignedToVar = 'I will give an error cause hoisting not assign the value, just declares it on top'
 ```
 
-executing this piece of code above, we see the specified output, it occurs because hoisting not assing the value, just declare on top! Pay attention with this behavior, it makes your code ready to bugs!
+executing this piece of code above, we see the specified output, it occurs because hoisting not assing the value, just declares on top! Pay attention with this behavior, it makes your code ready to bugs!
 
 <br>
 <hr>
