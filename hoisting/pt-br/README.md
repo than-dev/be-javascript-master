@@ -133,5 +133,6 @@ Acho que é bom dizer para você não usufruir desse comportamento, ele torna se
 
 Nathan Cotrim:
 
-- https://github.com/NathanCotrim
 - https://linktr.ee/nate.sfteng
+- https://medium.com/@nathan.sfteng/javascript-hoisting-1a11356363ac
+- https://dev.to/nate_sfteng/javascript-hoisting-5192
